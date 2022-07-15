@@ -1,0 +1,8 @@
+---
+- name: All configs
+  hosts: cluster
+  roles:
+    - role: deploy
+      message: "it`s good"
+    - role: deploy 
+      message: "it`s very good" 
